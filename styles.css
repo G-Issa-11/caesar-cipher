@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 38px;
+}
+
+.main-form {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.box-description {
+  margin-bottom: 10px;
+}
+
+.message-area {
+  padding: 7px;
+  width: 600px;
+  height: 300px;
+  margin-bottom: 10px;
+  border: 2px solid #000;
+}
+
+.shift-div {
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #000;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid #000;
+}
+
+.decrypt-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.shift-div,
+.btns {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shift-div.label {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.shift-val {
+  background-color: #fff;
+  color: #000;
+  padding: 3px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer.p {
+  color: black;
+}
+
+i {
+  color: red;
+}
